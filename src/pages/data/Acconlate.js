@@ -104,19 +104,6 @@ const Accordion = () => {
 
   return (
     <div className="flex flex-col justify-start rounded-xl h-auto">
-      {/* {data.map((data, index) => {
-        return (
-          <AccordionUI
-            key={index}
-            title={data.question}
-            Id={data.id}
-            children={data.answer}
-            Index={Index}
-            setIndex={setIndex}
-            color={data.color}
-          ></AccordionUI>
-        );
-      })} */}
     </div>
   );
 };
