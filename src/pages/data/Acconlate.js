@@ -104,7 +104,7 @@ const Accordion = () => {
 
   return (
     <div className="flex flex-col justify-start rounded-xl h-auto">
-      {data.map((data, index) => {
+      {/* {data.map((data, index) => {
         return (
           <AccordionUI
             key={index}
@@ -116,7 +116,7 @@ const Accordion = () => {
             color={data.color}
           ></AccordionUI>
         );
-      })}
+      })} */}
     </div>
   );
 };
