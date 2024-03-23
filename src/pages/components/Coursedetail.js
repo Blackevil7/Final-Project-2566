@@ -7,7 +7,6 @@ import Webde from '../images/webde.png'
 const includedFeatures = [
   'การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์โทรศัพท์ แทปเล็ต และ อุปกรณ์เคลื่อนที่อื่นๆ ที่ใช้ระบบปฏิบัติการ แอนดรอยด์ หรือ ไอโอเอส โดยใช้เว็บเทคโนโลยี ได้แก่ HTML5 CSS และส่วนต่อประสานโปรแกรมประยุกต์ด้วยจาวาสคริปต์เพื่อเข้าถึงการวางแนวอุปกรณ์ การจัดการการสัมผัสหน้าจอ แหล่งเก็บข้อมูลท้องถิ่น การเข้าถึงกล้องและการระบุตำแหน่ง'
 ]
-import Accordion from "@/pages/data/Acconlate"
 import MyNav from '@/pages/components/Navbar'
 import MyFooter from '@/pages/components/footer'
 import { useRouter } from 'next/router';
@@ -84,15 +83,6 @@ export default function Coursedetail() {
                   </div>
                 </div>
               </div>
-
-              <div className='bg-white  shadow-xl shadow-blue-100/50  mt-10 p-8 '>
-                <div className='mb-5 '>
-                  <Accordion />
-
-                </div>
-
-              </div>
-
             </div>
           </div>
           <MyFooter />
