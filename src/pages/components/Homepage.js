@@ -8,7 +8,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Network from "../images/network.png"
 import Parallel from "../images/parallel-programming.webp"
 import Xml from "../images/XML.png"
-import Accordion from "@/pages/data/Accordion"
 import MyNav from '@/pages/components/Navbar'
 import MyFooter from '@/pages/components/footer'
 import { auth, db } from '../firebase'
@@ -58,10 +57,6 @@ export default function Home() {
               <Cards />
             </div>
           )}
-          <div>
-            <p className='mt-20 mb-10 text-3xl font-bold text-[#1373BB]'>รายวิชาทั้งหมด</p>
-            <Accordion />
-          </div>
         </div>
       </div>
       <MyFooter />
