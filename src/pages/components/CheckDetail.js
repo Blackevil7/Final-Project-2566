@@ -1,11 +1,10 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 import Webde from '../images/webde.png'
-import Accordion from "@/pages/data/AdcordionCheck"
 import MyNav from '@/pages/components/Navbar'
 import MyFooter from '@/pages/components/footer'
 import React, { useEffect, useState } from 'react';
 import { collection, getDocs } from 'firebase/firestore'
-import { db } from '../firebaseConfig'
+import { db } from '../../firebase'
 
 const includedFeatures = [
   'หลักการออกแบบเว็บไซต์',
@@ -57,10 +56,7 @@ export default function CheckDetail() {
           </div>
 
           <div className='bg-white  shadow-xl shadow-blue-100/50  mt-10 p-8 '>
-            <div className='mb-5 '>
-              <Accordion />
 
-            </div>
 
           </div>
 

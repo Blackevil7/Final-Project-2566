@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
-import { db } from '../firebase'; // นำเข้า Firestore object (db) จากไฟล์ firebase ของคุณ
+import { db } from '../../firebase'; // นำเข้า Firestore object (db) จากไฟล์ firebase ของคุณ
 
 const AddQuestionForm = () => {
   const [question, setQuestion] = useState('');

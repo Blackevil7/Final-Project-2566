@@ -12,7 +12,7 @@ import {
   onAuthStateChanged,
   signOut,
 } from "firebase/auth";
-import { auth, db } from '../firebase'
+import { auth, db } from '../../firebase'
 import { collection, query, where, getDocs } from "firebase/firestore";
 import ShowStudent from "@/pages/components/ShowStudent";
 import { useRouter } from 'next/router';

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { auth, db } from '../firebase'
+import { auth, db } from '../../firebase'
 import { collection, query, where, getDocs, updateDoc, doc, getDoc } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import { CheckIcon, XMarkIcon } from '@heroicons/react/20/solid'

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { auth, db } from '../firebase'
+import { auth, db } from '../../firebase'
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import { CheckIcon } from '@heroicons/react/20/solid'
@@ -13,7 +13,6 @@ const includedFeatures = [
   'Mobile App: React Native',
   'Firebase'
 ]
-import Accordion from "@/pages/data/Adcordioncourse"
 import MyNav from '@/pages/components/Navbar'
 import MyFooter from '@/pages/components/footer'
 import { Footer } from 'flowbite-react'

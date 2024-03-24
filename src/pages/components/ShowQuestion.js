@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { db } from '../firebase'
+import { db } from '../../firebase'
 import { collection, getDocs, addDoc, deleteDoc, updateDoc, doc, getDoc } from 'firebase/firestore';
 import { XMarkIcon, TrashIcon, PencilSquareIcon } from "@heroicons/react/24/outline";
 import { Input } from "@nextui-org/react";

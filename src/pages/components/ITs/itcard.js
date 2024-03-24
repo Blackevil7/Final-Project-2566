@@ -6,7 +6,7 @@ import Network from "@/pages/images/network.png"
 import Parallel from "@/pages/images/parallel-programming.webp"
 import Xml from "@/pages/images/XML.png"
 import { useState, useEffect } from "react";
-import { auth, db } from '../../firebase'
+import { auth, db } from '../../../firebase'
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import React from 'react'

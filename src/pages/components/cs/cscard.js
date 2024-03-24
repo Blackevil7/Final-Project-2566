@@ -7,7 +7,7 @@ import Java from "@/pages/images/Java.png"
 import Com from "@/pages/images/Computational.png"
 import Link from 'next/link';
 import { useState, useEffect } from "react";
-import { auth, db } from '../../firebase'
+import { auth, db } from '../../../firebase'
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 

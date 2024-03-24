@@ -6,7 +6,6 @@ const includedFeatures = [
   'การออกแบบเนื้อหา',
   'การวางแผนระบบนำทาง',
 ]
-import Accordion from "@/pages/data/AdcordionQuestion"
 import MyNav from '@/pages/components/Navbar' 
 import MyFooter from '@/pages/components/footer'  
 
@@ -36,10 +35,6 @@ export default function QuestionDetail() {
         </div>
 
         <div className='bg-white  shadow-xl shadow-blue-100/50  mt-10 p-8 '> 
-          <div className='mb-5 '>
-            <Accordion />
-            
-             </div>
           
         </div>
           

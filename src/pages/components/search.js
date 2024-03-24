@@ -1,6 +1,5 @@
 import React from "react";
 import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
-import {animals} from "../data/cs";
 
 export default function App() {
   return (
@@ -8,7 +7,6 @@ export default function App() {
       
       placeholder="ค้นหา"
       defaultSelectedKey="cat"
-      defaultItems={animals}
       className="max-w-xs"
       scrollShadowProps={{
         isEnabled: false

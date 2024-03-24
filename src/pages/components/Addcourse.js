@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import MyYoshi from '../images/Yoshi.png';
 import Home from '../images/home.png';
-import { animals, fac, pack } from "../data/dataselect";
 import HomeAdmin from './HomeAdmin';
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import { Input, Select, SelectItem } from "@nextui-org/react";

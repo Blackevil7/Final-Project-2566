@@ -10,7 +10,7 @@ import Parallel from "../images/parallel-programming.webp"
 import Xml from "../images/XML.png"
 import MyNav from '@/pages/components/Navbar'
 import MyFooter from '@/pages/components/footer'
-import { auth, db } from '../firebase'
+import { auth, db } from '../../firebase'
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 
